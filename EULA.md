@@ -33,11 +33,11 @@ PerioMaxer is a periodontal charting tool designed for dental professionals. The
 
 **THE APP IS A CLINICAL CHARTING TOOL ONLY. IT IS NOT A MEDICAL DEVICE, DIAGNOSTIC TOOL, OR SUBSTITUTE FOR PROFESSIONAL CLINICAL JUDGMENT.**
 
-- The App does not provide medical advice, diagnoses, or treatment recommendations.
+- The App is intended as a tool to assist in collecting and recording periodontal examination data. It should not be fully relied upon as your sole source of clinical records.
+- Voice recognition and data entry processes may produce errors. You are responsible for independently verifying all data recorded by the App before using it for any clinical purpose.
 - All clinical decisions, including but not limited to diagnosis, treatment planning, and patient care, remain the sole responsibility of the licensed dental or medical professional using the App.
 - The Developer makes no representations or warranties regarding the accuracy, completeness, or reliability of any data entered into, processed by, or displayed within the App.
 - The Developer is not responsible for any clinical outcomes, patient harm, misdiagnosis, or treatment errors arising from the use of or reliance on the App.
-- You acknowledge that the App is intended solely as an aid for recording periodontal examination data and that you bear full responsibility for verifying the accuracy of all charted information.
 
 ---
 
