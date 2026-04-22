@@ -51,7 +51,7 @@ All patient data, clinical records, and charting information entered into the Ap
 
 You are the sole data controller of all patient information entered into the App. You are solely responsible for:
 
-- Compliance with all applicable privacy laws and regulations, including but not limited to the Health Insurance Portability and Accountability Act (HIPAA), the General Data Protection Regulation (GDPR), and any other applicable federal, state, or local data protection laws.
+- Compliance with all applicable privacy laws and regulations, including the General Data Protection Regulation (GDPR) and any applicable federal, state, or local data protection laws.
 - Obtaining any necessary patient consent for the collection and storage of their health information.
 - Implementing appropriate administrative, physical, and technical safeguards for protected health information (PHI) in accordance with applicable law.
 - Securing the device on which the App is installed, including but not limited to device-level encryption, passcodes, and physical access controls.
@@ -59,7 +59,7 @@ You are the sole data controller of all patient information entered into the App
 
 ### 4.3 No PHI Liability
 
-The Developer does not access, collect, process, store, or transmit any patient data or protected health information (PHI). The Developer is not a Business Associate under HIPAA and assumes no obligations or liability under HIPAA or any other health data privacy regulation with respect to any data you enter into the App.
+The Developer does not access, collect, process, store, or transmit any data you enter into the App. No data custodian, processor, or business associate relationship exists between you and the Developer. The Developer assumes no obligations or liability under any privacy or data protection regulation with respect to any data you enter into the App.
 
 ---
 

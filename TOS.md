@@ -45,7 +45,7 @@ You are solely responsible for:
 - **Clinical judgment.** All clinical decisions, including diagnosis, treatment planning, referrals, and patient care, are entirely your responsibility as a licensed professional.
 - **Data accuracy.** Verifying the accuracy and completeness of all data entered into and displayed by the App, including data entered via voice recognition.
 - **Data security.** Securing the physical device on which the App is installed, maintaining appropriate passcodes and authentication settings, and preventing unauthorized access.
-- **Regulatory compliance.** Compliance with all applicable healthcare regulations, including but not limited to HIPAA, GDPR, state privacy laws, and professional licensing requirements.
+- **Regulatory compliance.** Compliance with all applicable laws, regulations, and professional licensing requirements that apply to your use of the App.
 - **Patient consent.** Obtaining all necessary informed consent from patients for the collection and storage of their health information.
 - **Data backup.** Maintaining your own backup procedures for any data entered into the App. The Developer does not provide backup, recovery, or data restoration services.
 - **Professional standards.** Using the App in accordance with the standards of care and professional ethics applicable to your profession and jurisdiction.
@@ -102,9 +102,9 @@ The App uses Apple's on-device speech recognition. Audio is processed locally in
 
 The Developer does not collect, access, receive, or process any personal data, patient data, health information, or usage data from the App. The Developer has no ability to view, retrieve, or recover any data stored within the App on your device.
 
-### 6.4 Not a HIPAA Business Associate
+### 6.4 No Data Custodian Relationship
 
-Because the Developer does not create, receive, maintain, or transmit protected health information (PHI) on your behalf, the Developer is not a Business Associate as defined under HIPAA. No Business Associate Agreement is required or offered.
+Because the Developer does not create, receive, maintain, or transmit any data on your behalf, no data custodian, processor, or business associate relationship exists between you and the Developer. No data processing agreement is required or offered.
 
 ### 6.5 Data Loss
 
@@ -191,7 +191,7 @@ You agree to indemnify, defend, and hold harmless the Developer and its affiliat
 - Any patient data you enter, store, manage, or fail to secure within the App.
 - Any clinical decisions, diagnoses, treatments, or patient care related to your use of the App.
 - Any claim by a third party, including but not limited to patients, arising from your use of the App.
-- Your failure to comply with HIPAA or any applicable data protection regulation.
+- Your failure to comply with any applicable data protection regulation.
 
 ---
 

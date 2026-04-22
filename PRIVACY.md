@@ -159,19 +159,19 @@ The App is not intended for use by individuals under the age of 18. We do not kn
 
 ---
 
-## 12. HIPAA Compliance
+## 12. Your Compliance Obligations
 
-### 12.1 Your Obligations
+### 12.1 Your Responsibility
 
-If you are subject to HIPAA, you are solely responsible for ensuring that your use of the App complies with HIPAA requirements, including the Privacy Rule, Security Rule, and Breach Notification Rule.
+You are solely responsible for ensuring that your use of the App complies with any laws, regulations, or professional standards that apply to records you store within the App.
 
-### 12.2 Developer's Status
+### 12.2 No Data Custodian Relationship
 
-Because the Developer does not create, receive, maintain, or transmit protected health information on behalf of any covered entity, the Developer is **not** a Business Associate under HIPAA. No Business Associate Agreement (BAA) is required or provided.
+Because the Developer does not create, receive, maintain, or transmit any data on your behalf, no data custodian, processor, or business associate relationship exists between you and the Developer. No data processing agreement is required or provided.
 
 ### 12.3 On-Device Architecture
 
-The App's architecture — with all data stored and processed locally on your device, no cloud connectivity, and no data transmission — is designed to support your HIPAA compliance efforts. However, HIPAA compliance depends on your overall practices, not solely on the App.
+The App's architecture — with all data stored and processed locally on your device, no cloud connectivity, and no data transmission — is designed to support your data security and privacy efforts. Your overall compliance posture depends on your broader practices, not solely on the App.
 
 ---
 
