@@ -933,6 +933,20 @@ section { padding: 56px 0; }
   border-color: var(--orange-600);
 }
 
+.legal a.btn {
+  border-bottom: 0;
+}
+
+.legal a.btn-primary,
+.legal a.btn-primary:hover {
+  color: #fff;
+}
+
+.legal a.btn-glass,
+.legal a.btn-glass:hover {
+  color: var(--ink);
+}
+
 .legal-loading {
   text-align: center;
   padding: 80px 24px;
