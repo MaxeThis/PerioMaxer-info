@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>EULA · SmileMaxer</title>
-<meta name="description" content="End User License Agreement for the PerioMaxer app by SmileMaxer." />
+<title>Support · SmileMaxer</title>
+<meta name="description" content="Get help with PerioMaxer. Reach out to Max directly by email for support, bug reports, or feature requests." />
 <meta name="theme-color" content="#D97757" />
 <link rel="icon" href="assets/img/app-icon.png" />
 <link rel="stylesheet" href="assets/styles.css" />
@@ -45,13 +45,43 @@
     <div class="container">
 
       <header class="legal-header">
-        <span class="chip"><span class="chip-dot"></span> Legal</span>
-        <h1>End User License Agreement</h1>
-        <p>The terms that govern your use of the PerioMaxer app.</p>
+        <span class="chip"><span class="chip-dot"></span> Support</span>
+        <h1>Need a hand?</h1>
+        <p>Questions, bug reports, feature requests — they all come straight to me.</p>
       </header>
 
-      <article class="legal" id="legal-content">
-        <div class="legal-loading">Loading document…</div>
+      <article class="legal">
+        <p>
+          PerioMaxer is built and supported by one person. If something isn't working, you have a question about using the app, or you'd like to request a feature, please reach out directly:
+        </p>
+
+        <p style="text-align:center; margin: 28px 0;">
+          <a class="btn btn-primary" href="mailto:maxethis@gmail.com?subject=PerioMaxer%20Support">
+            Email maxethis@gmail.com
+          </a>
+        </p>
+
+        <p>
+          You can also copy the address manually: <strong>maxethis@gmail.com</strong>. I usually reply within a day or two. When reporting a problem, it helps to include your device (iPhone, iPad, or Mac), the iOS/macOS version you're on, and a short description of what you were doing when the issue happened.
+        </p>
+
+        <h2>What to include in a bug report</h2>
+        <ul>
+          <li>Device and OS version</li>
+          <li>PerioMaxer version (found in Settings inside the app)</li>
+          <li>Steps to reproduce, if you can</li>
+          <li>Screenshots or a short screen recording if it's visual</li>
+        </ul>
+
+        <h2>Feature requests</h2>
+        <p>
+          Tell me what you wish PerioMaxer did. Real clinical workflows beat hypothetical ones, so specifics about how you'd use the feature are gold.
+        </p>
+
+        <h2>Billing and subscriptions</h2>
+        <p>
+          Subscriptions are managed by Apple through your App Store account. For refunds or to cancel, open <strong>Settings → [your name] → Subscriptions</strong> on iOS, or <strong>App Store → your profile → Subscriptions</strong> on Mac. If you run into trouble there, email me and I'll do what I can to help.
+        </p>
       </article>
 
     </div>
@@ -80,12 +110,6 @@
 </footer>
 
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
 <script src="assets/main.js" defer></script>
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    renderMarkdown("EULA.md", "#legal-content");
-  });
-</script>
 </body>
 </html>
