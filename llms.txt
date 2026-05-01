@@ -1,0 +1,40 @@
+# SmileMaxer
+
+> SmileMaxer is the home of PerioMaxer, a voice-powered, on-device periodontal charting app for dentists, hygienists, and periodontists on iPhone, iPad, and Mac.
+
+## Docs
+
+- [Home — PerioMaxer overview](https://smilemaxer.com/): Product overview covering voice charting, on-device encryption, smart command filtering, PDF export, ICD-10 and medication indexes, six-site perio coverage, plus pricing tiers and free-trial details.
+- [About Max Mendelson](https://smilemaxer.com/about.html): Bio of the independent maker — University of Maryland student building PerioMaxer in SwiftUI, with research background in 3D modeling, 3D printing, and 3D animation applied to dentistry.
+- [Support](https://smilemaxer.com/support.html): How to contact the developer for bug reports, feature requests, and questions; guidance on what to include in a bug report; pointer to Apple settings for subscription and refund management.
+
+## Product
+
+- [Get PerioMaxer on the App Store](https://apps.apple.com/app/apple-store/id6762096578?pt=120200831&ct=smilemaxer&mt=8): Apple App Store listing for PerioMaxer (App Store ID 6762096578) — universal app for iPhone, iPad, and Mac with a one-week free trial on every plan.
+
+## Legal
+
+- [Privacy Policy](https://smilemaxer.com/privacy.html): How PerioMaxer handles patient data — records stay encrypted on-device, no cloud sync, no third-party servers, no data sold or shared.
+- [Terms of Service](https://smilemaxer.com/terms.html): Terms governing use of the SmileMaxer website and the PerioMaxer app.
+- [EULA](https://smilemaxer.com/eula.html): End-user license agreement for the PerioMaxer iOS and macOS app.
+
+## Key Facts
+
+- Product: PerioMaxer — voice-powered periodontal charting app
+- Marketing site: SmileMaxer (smilemaxer.com)
+- Maker: Max Mendelson, independent developer and student at the University of Maryland
+- Platforms: iPhone, iPad, and Mac (iOS and macOS) via the Apple App Store
+- App Store ID: 6762096578
+- Pricing: $3.99 / month, $14.99 / 6 months, or $24.99 / year (best value, ~$2.08/month — saves 48%)
+- Trial: 1-week free trial on every plan, cancel anytime
+- Privacy posture: fully on-device encryption, no cloud sync, no third-party servers, no ads, no data sold
+- Core capabilities: voice charting (probing depths, gingival margins, bleeding on probing, furcation, mobility), smart filtering that ignores side conversations, PDF export of periodontal reports, built-in ICD-10 and medication indexes, six sites per tooth on upper and lower arches with missing-tooth handling
+- Built with: SwiftUI, on-device speech recognition
+- Affiliation: Independent project; not affiliated with Apple Inc.
+
+## Contact
+
+- Website: https://smilemaxer.com
+- Support email: maxethis@gmail.com
+- GitHub: https://github.com/MaxeThis
+- LinkedIn: https://www.linkedin.com/in/maxwellmendelson/
