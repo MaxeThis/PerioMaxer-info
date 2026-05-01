@@ -90,7 +90,6 @@
       "index.pricing_perk_all": "Everything in PerioMaxer",
       "index.pricing_perk_voice": "Unlimited voice charting",
       "index.pricing_perk_pdf": "PDF export",
-      "index.pricing_perk_priority": "Priority on new features",
       "index.pricing_cta": "Start free week",
       "index.pricing_note": "No ads. No data sold. No cloud accounts. Just the app.",
 
@@ -263,7 +262,6 @@
       "index.pricing_perk_all": "Todas las funciones de PerioMaxer",
       "index.pricing_perk_voice": "Registro por voz ilimitado",
       "index.pricing_perk_pdf": "Exportar PDF",
-      "index.pricing_perk_priority": "Prioridad en nuevas funciones",
       "index.pricing_cta": "Empezar semana gratis",
       "index.pricing_note": "Sin anuncios. Sin venta de datos. Sin cuentas en la nube. Solo la app.",
 
@@ -406,7 +404,6 @@
       "index.pricing_perk_all": "Tudo do PerioMaxer",
       "index.pricing_perk_voice": "Registro por voz ilimitado",
       "index.pricing_perk_pdf": "Exportar PDF",
-      "index.pricing_perk_priority": "Prioridade em novos recursos",
       "index.pricing_cta": "Começar semana grátis",
       "index.pricing_note": "Sem anúncios. Sem venda de dados. Sem contas na nuvem. Só o app.",
 
@@ -549,7 +546,6 @@
       "index.pricing_perk_all": "PerioMaxer のすべての機能",
       "index.pricing_perk_voice": "音声チャート無制限",
       "index.pricing_perk_pdf": "PDF エクスポート",
-      "index.pricing_perk_priority": "新機能への優先アクセス",
       "index.pricing_cta": "無料の 1 週間を開始",
       "index.pricing_note": "広告なし。データの販売なし。クラウドアカウントなし。あるのはアプリだけ。",
 
