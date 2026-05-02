@@ -69,9 +69,9 @@
       "index.shots_sub": "Built in SwiftUI with a glass interface that reads clearly in any operatory light.",
       "index.shots_cap_1": "Welcome",
       "index.shots_cap_2": "Voice charting",
-      "index.shots_cap_3": "Fast manual entry",
+      "index.shots_cap_3": "Patient at a glance",
       "index.shots_alt_2": "PerioMaxer charting view",
-      "index.shots_alt_3": "PerioMaxer charting detail",
+      "index.shots_alt_3": "PerioMaxer patient summary",
 
       // Index — pricing
       "index.pricing_chip": "Simple pricing",
@@ -242,9 +242,9 @@
       "index.shots_sub": "Hecho en SwiftUI con una interfaz tipo cristal legible bajo cualquier luz de consultorio.",
       "index.shots_cap_1": "Bienvenida",
       "index.shots_cap_2": "Registro por voz",
-      "index.shots_cap_3": "Entrada manual rápida",
+      "index.shots_cap_3": "Paciente de un vistazo",
       "index.shots_alt_2": "Vista de registro de PerioMaxer",
-      "index.shots_alt_3": "Detalle de registro de PerioMaxer",
+      "index.shots_alt_3": "Resumen del paciente en PerioMaxer",
 
       "index.pricing_chip": "Precios sencillos",
       "index.pricing_title": "Una taza de café al mes.",
@@ -384,9 +384,9 @@
       "index.shots_sub": "Feito em SwiftUI com uma interface de vidro legível sob qualquer luz de consultório.",
       "index.shots_cap_1": "Boas-vindas",
       "index.shots_cap_2": "Registro por voz",
-      "index.shots_cap_3": "Entrada manual rápida",
+      "index.shots_cap_3": "Paciente num relance",
       "index.shots_alt_2": "Tela de registro do PerioMaxer",
-      "index.shots_alt_3": "Detalhe de registro do PerioMaxer",
+      "index.shots_alt_3": "Resumo do paciente no PerioMaxer",
 
       "index.pricing_chip": "Preços simples",
       "index.pricing_title": "Um café por mês.",
@@ -526,9 +526,9 @@
       "index.shots_sub": "SwiftUI で構築。診療室のどんな照明下でも読みやすいガラス調のインターフェース。",
       "index.shots_cap_1": "ウェルカム",
       "index.shots_cap_2": "音声チャート",
-      "index.shots_cap_3": "素早い手動入力",
+      "index.shots_cap_3": "ひと目でわかる患者情報",
       "index.shots_alt_2": "PerioMaxer のチャート画面",
-      "index.shots_alt_3": "PerioMaxer のチャート詳細",
+      "index.shots_alt_3": "PerioMaxer の患者サマリー",
 
       "index.pricing_chip": "シンプルな料金",
       "index.pricing_title": "コーヒー一杯分の月額。",
