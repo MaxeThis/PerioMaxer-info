@@ -267,7 +267,7 @@ The Developer shall not be liable for any failure or delay in performance result
 
 If you have questions about these Terms, you may contact us at:
 
-**Email:** maxethis@gmail.com
+**Email:** support@periomaxer.com
 
 ---
 

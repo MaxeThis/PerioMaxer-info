@@ -101,7 +101,7 @@ The App includes an optional bug report feature that allows you to send feedback
 
 - Bug reports are **entirely voluntary and user-initiated**. The App never sends information automatically.
 - When you submit a bug report, it opens your device's native email client. You control the content of the email before sending.
-- Bug reports are sent to: maxethis@gmail.com
+- Bug reports are sent to: support@periomaxer.com
 - We recommend that you **never include patient data or PHI** in bug reports.
 
 ---
@@ -208,7 +208,7 @@ We may update this Privacy Policy from time to time. Changes will be posted at t
 
 If you have questions about this Privacy Policy, you may contact us at:
 
-**Email:** maxethis@gmail.com
+**Email:** support@periomaxer.com
 
 ---
 

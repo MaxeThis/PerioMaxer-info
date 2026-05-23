@@ -211,7 +211,7 @@ The Developer reserves the right to modify this Agreement at any time. Updated v
 
 If you have questions about this Agreement, you may contact us at:
 
-**Email:** maxethis@gmail.com
+**Email:** support@periomaxer.com
 
 ---
 
