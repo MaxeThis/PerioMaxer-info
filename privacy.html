@@ -104,8 +104,8 @@
 
         <h1>PerioMaxer — Privacy Policy</h1>
         <p><strong>Effective Date:</strong> April 14, 2026<br />
-        <strong>Last Updated:</strong> April 14, 2026</p>
-        <p>This Privacy Policy describes how the developer of PerioMaxer ("Developer," "we," "us," or "our") handles information in connection with the PerioMaxer application ("App"), available on iOS and macOS via the Apple App Store.</p>
+        <strong>Last Updated:</strong> May 30, 2026</p>
+        <p>This Privacy Policy describes how SmileMaxer LLC, a Maryland limited liability company and the developer of PerioMaxer ("Developer," "we," "us," or "our"), handles information in connection with the PerioMaxer application ("App"), available on iOS and macOS via the Apple App Store and on Android via Google Play.</p>
         <p>By using the App, you agree to the practices described in this Privacy Policy.</p>
         <hr />
 
@@ -139,11 +139,11 @@
           <li>Periodontal examination records, including probing depths, gingival margins, bleeding on probing, suppuration, plaque, furcation involvement, tooth mobility, and related clinical measurements.</li>
           <li>Exam dates, examiner names, and chart notes.</li>
         </ul>
-        <p>This data is stored using Apple's SwiftData framework with AES-256-GCM encryption at rest. Encryption keys are stored in the device's secure Keychain.</p>
+        <p>On iOS and macOS, this data is stored using Apple's SwiftData framework with AES-256-GCM encryption at rest, and the encryption keys are held in the device's secure Keychain. On Android, this data is stored in the App's private, sandboxed storage on your device, protected by Android's device-level (file-based) encryption; your PIN and other credentials are additionally encrypted at the app level using AES-256-GCM, with keys held in the hardware-backed Android Keystore.</p>
         <h3>3.2 Authentication Data</h3>
         <ul>
           <li>A locally stored PIN (encrypted).</li>
-          <li>Face ID configuration (managed entirely by Apple's LocalAuthentication framework — the Developer never accesses biometric data).</li>
+          <li>Biometric authentication configuration — managed on iOS and macOS by Apple's LocalAuthentication framework, and on Android by the system BiometricPrompt API. The Developer never accesses biometric data on any platform.</li>
         </ul>
         <h3>3.3 Audit Log</h3>
         <ul>
@@ -152,35 +152,35 @@
         <h3>3.4 App Preferences</h3>
         <ul>
           <li>User settings and preferences (e.g., charting mode, voice control settings, display preferences).</li>
-          <li>Subscription status (verified locally via Apple's StoreKit framework).</li>
+          <li>Subscription status (verified locally via Apple's StoreKit framework on iOS and macOS, or Google Play Billing on Android).</li>
         </ul>
         <p><strong>None of the above data ever leaves your device through the App.</strong></p>
         <hr />
 
         <h2 id="sec-4-voice">4. Voice and Speech Data</h2>
-        <p>The App offers voice-controlled charting using Apple's native on-device speech recognition framework (<code>SFSpeechRecognizer</code>).</p>
+        <p>The App offers voice-controlled charting using on-device speech recognition: Apple's native framework (<code>SFSpeechRecognizer</code>) on iOS and macOS, and an on-device Vosk speech model on Android.</p>
         <ul>
-          <li><strong>On-device processing only.</strong> The App explicitly requires on-device recognition (<code>requiresOnDeviceRecognition = true</code>). Audio is never sent to Apple's servers or any third party.</li>
+          <li><strong>On-device processing only.</strong> Speech recognition runs entirely on your device — on iOS and macOS the App requires on-device recognition (<code>requiresOnDeviceRecognition = true</code>); on Android the Vosk model runs locally on the device. Audio is never sent to Apple, Google, the Developer, or any third party.</li>
           <li><strong>No recording.</strong> The App does not record, store, or retain any audio. Voice data is processed in real time and discarded immediately after transcription.</li>
           <li><strong>No transmission.</strong> No audio or transcription data is transmitted to the Developer or any external service.</li>
         </ul>
         <hr />
 
         <h2 id="sec-5-biometric">5. Biometric Data</h2>
-        <p>The App supports Face ID for authentication through Apple's LocalAuthentication framework.</p>
+        <p>The App supports biometric authentication — Face ID or Touch ID on iOS and macOS (through Apple's LocalAuthentication framework), and fingerprint or face unlock on Android (through the system BiometricPrompt API).</p>
         <ul>
-          <li>Biometric data is processed and stored entirely by Apple's Secure Enclave on your device.</li>
+          <li>Biometric data is processed and stored entirely on your device by the platform's secure hardware — Apple's Secure Enclave on iOS and macOS, and the hardware-backed Android Keystore (Trusted Execution Environment or StrongBox) on Android.</li>
           <li>The Developer never receives, accesses, processes, or stores any biometric data.</li>
           <li>You can enable or disable biometric authentication at any time within the App or through your device settings.</li>
         </ul>
         <hr />
 
         <h2 id="sec-6-subscription">6. Subscription and Payment Data</h2>
-        <p>Subscriptions are managed entirely by Apple through the App Store.</p>
+        <p>Subscriptions are managed entirely by the platform's app store — Apple through the App Store on iOS and macOS, and Google through Google Play on Android.</p>
         <ul>
-          <li>The Developer does not collect, process, or store any payment information, including credit card numbers, billing addresses, or Apple ID credentials.</li>
-          <li>The App verifies subscription status locally using Apple's StoreKit 2 framework.</li>
-          <li>Purchase history and billing are managed by Apple and subject to <a href="https://www.apple.com/legal/privacy/" rel="noopener" target="_blank">Apple's Privacy Policy</a>.</li>
+          <li>The Developer does not collect, process, or store any payment information, including credit card numbers, billing addresses, or your Apple ID or Google account credentials.</li>
+          <li>The App verifies subscription status locally using Apple's StoreKit 2 framework (iOS and macOS) or Google Play Billing (Android).</li>
+          <li>Purchase history and billing are managed by Apple or Google and subject to <a href="https://www.apple.com/legal/privacy/" rel="noopener" target="_blank">Apple's Privacy Policy</a> or <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Google's Privacy Policy</a>, respectively.</li>
         </ul>
         <hr />
 
@@ -204,15 +204,15 @@
           <li>No cloud storage or sync services (iCloud, Google Drive, Dropbox, etc.).</li>
           <li>No external APIs or web services.</li>
         </ul>
-        <p>The only third-party interaction is with <strong>Apple's App Store</strong> for subscription management, which is governed by Apple's own privacy policy.</p>
+        <p>The only third-party interaction is with the platform app store for subscription management — <strong>Apple's App Store</strong> (iOS and macOS) or <strong>Google Play</strong> (Android) — each governed by its own privacy policy.</p>
         <hr />
 
         <h2 id="sec-9-security">9. Data Security</h2>
         <p>While the Developer does not have access to your data, the App implements the following on-device security measures:</p>
         <ul>
-          <li><strong>Encryption at rest.</strong> All patient data is encrypted using AES-256-GCM.</li>
-          <li><strong>Secure key storage.</strong> Encryption keys are stored in the device's Keychain.</li>
-          <li><strong>Authentication.</strong> Access to the App requires PIN or Face ID authentication.</li>
+          <li><strong>Encryption at rest.</strong> On iOS and macOS, all patient data is encrypted using AES-256-GCM. On Android, patient data is held in the App's private, sandboxed storage protected by the device's file-based encryption, and credentials such as your PIN are encrypted using AES-256-GCM via the Android Keystore.</li>
+          <li><strong>Secure key storage.</strong> Encryption keys are stored in the device's secure key store — the Apple Keychain on iOS and macOS, and the hardware-backed Android Keystore on Android.</li>
+          <li><strong>Authentication.</strong> Access to the App requires PIN or biometric authentication (Face ID/Touch ID on Apple devices, or fingerprint/face unlock on Android).</li>
           <li><strong>Auto-lock.</strong> The App automatically locks after a configurable period of inactivity (default: 10 minutes).</li>
           <li><strong>Audit trail.</strong> All actions are logged in a tamper-evident log with cryptographic hash chains.</li>
         </ul>
@@ -273,7 +273,7 @@
         <p>If you have questions about this Privacy Policy, you may contact us at:</p>
         <p><strong>Email:</strong> support@periomaxer.com</p>
         <hr />
-        <p><em>This Privacy Policy was last updated on April 14, 2026.</em></p>
+        <p><em>This Privacy Policy was last updated on May 30, 2026.</em></p>
       </article>
 
     </div>
@@ -296,7 +296,7 @@
       </nav>
     </div>
     <div class="footer-meta" data-i18n="footer.note">
-      © <span id="year"></span> Max Mendelson · SmileMaxer is the home of the PerioMaxer app.
+      © <span id="year"></span> SmileMaxer LLC · SmileMaxer is the home of the PerioMaxer app.
     </div>
   </div>
 </footer>
