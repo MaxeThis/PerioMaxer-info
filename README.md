@@ -1,3 +1,8 @@
+> **This repository moved on 2026-09-10.** It now lives at `archive/smilemaxer-site/` inside
+> [MaxeThis/PerioMaxer](https://github.com/MaxeThis/PerioMaxer) with its full history
+> (`git log -- archive/smilemaxer-site/` there). Nothing here is maintained any more; do not open pull
+> requests or push commits to this repository.
+
 # SmileMaxer.com
 
 The public site and legal documents for the **PerioMaxer** iOS / macOS app.
